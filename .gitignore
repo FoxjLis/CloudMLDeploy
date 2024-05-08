@@ -7,6 +7,6 @@
 # Ignoring catalogs with model weights
 weights/
 
-# Ignoring directories that are not normally required in the repository
+# Ignoring directories; that are not normally required in the repository
 /node_modules/
 /dist/
