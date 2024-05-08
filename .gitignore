@@ -1,1 +1,12 @@
--e ".DS_Store\nweights/\n*.tfevents" 
+# Ignoring macOS system files
+.DS_Store
+
+# Ignoring temporary TensorFlow files
+*.tfevents
+
+# Ignoring catalogs with model weights
+weights/
+
+# Ignoring directories that are not normally required in the repository
+/node_modules/
+/dist/
