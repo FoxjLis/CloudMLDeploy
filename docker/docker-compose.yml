@@ -1,0 +1,19 @@
+version: '3'
+services:
+  web:
+    image: vspa:latest
+#    build: . создает образ с нуля
+    ports:
+      - "5000:5000"
+    volumes:
+      - /uploads:/uploads
+      - /app:/app
+      - /app/runs:/app/runs
+    environment:
+      FLASK_APP: "__init__.py"
+    healthcheck:
+      test: [ "CMD-SHELL", "curl -f http://dockerwin.cr.cloud.ru || exit 1" ]
+      interval: 1h
+      timeout: 15s
+      retries: 3
+    restart: always

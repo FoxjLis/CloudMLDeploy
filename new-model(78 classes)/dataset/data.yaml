@@ -1,0 +1,84 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+names: 
+  0: 3M ESPE Implant
+  1: 47
+  2: 48
+  3: 49
+  4: 50
+  5: 51
+  6: 52
+  7: 53
+  8: 54
+  9: 55
+  10: 56
+  11: 57
+  12: 58
+  13: 59
+  14: 60
+  15: 61
+  16: 62
+  17: 63
+  18: 64
+  19: 65
+  20: 66
+  21: 67
+  22: 68
+  23: 69
+  24: 70
+  25: 71
+  26: 72
+  27: 73
+  28: 74
+  29: 75
+  30: 76
+  31: 77
+  32: 78
+  33: AGS Medikal Implant
+  34: AMerOss Implant
+  35: Amalgam filling
+  36: Anthogyr Implant
+  37: Bicon Implant
+  38: BioHorizons Implant
+  39: BioLife Implant
+  40: Biomet 3i Implant
+  41: Blue Sky Bio Implant
+  42: Camlog Implant
+  43: Caries
+  44: Composite filling
+  45: Cowellmedi Implant
+  46: Crown
+  47: DENTSPLY Implant
+  48: Dentatus Implant
+  49: Dentis Implant
+  50: Dentium Implant
+  51: Euroteknika Implant
+  52: Filling
+  53: Frontier Implant
+  54: Hiossen Implant
+  55: Implant
+  56: Implant Direct
+  57: Keystone Dental Implant
+  58: Leone Implant
+  59: MIS Implant
+  60: Mandible
+  61: Maxilla
+  62: Megagen Implant
+  63: Neodent Implant
+  64: Neoss Implant
+  65: Nobel Biocare Implant
+  66: Novodent Implant
+  67: NucleOSS Implant
+  68: OCO Biomedical Implant
+  69: OsseoLink Implant
+  70: Osstem Implant
+  71: Prefabricated metal post
+  72: Retained root
+  73: Root canal filling
+  74: Root canal obturation
+  75: Sterngold Implant
+  76: Straumann Implant
+  77: Titan Implant Implant
+  78: Zimmer Implant
